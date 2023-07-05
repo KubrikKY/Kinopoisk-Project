@@ -1,0 +1,23 @@
+@keyframes show {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 0.8;
+  }
+}
+.MovieButton {
+  display: block;
+  height: 36px;
+  width: 100%;
+  background-color: rgb(244, 244, 244);
+  margin-top: 10px;
+  opacity: 0.8;
+  border-radius: 8px;
+  animation: 0.5s show ease;
+
+  transition: opacity 0.3s linear;
+  text-decoration: none;
+  color: black;
+  text-align: center;
+}
